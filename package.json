@@ -1,0 +1,16 @@
+{
+  "name": "joel-saju-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio — Joel Saju, BCA Cloud Computing",
+  "scripts": {
+    "lint:html": "htmlhint index.html --config .htmlhintrc",
+    "lint:css": "stylelint '**/*.css' --config .stylelintrc.json || true",
+    "test": "node tests/portfolio.test.js",
+    "validate": "npm run lint:html && npm run lint:css && npm test"
+  },
+  "devDependencies": {
+    "htmlhint": "^1.1.4",
+    "stylelint": "^16.0.0",
+    "stylelint-config-standard": "^36.0.0"
+  }
+}

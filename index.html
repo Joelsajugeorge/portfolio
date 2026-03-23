@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joel Saju — BCA Cloud Computing</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="progress"></div>
+  <div class="grid-bg"></div>
+  <div class="scanlines"></div>
+  <div class="orb orb1"></div>
+  <div class="orb orb2"></div>
+  <div class="orb orb3"></div>
+
+  <!-- PDF Modal -->
+  <div id="pdfModal">
+    <div class="pdf-modal-inner">
+      <div class="pdf-modal-header">
+        <span id="pdfModalTitle">⬡ CERTIFICATE VIEWER</span>
+        <button class="pdf-close">✕ CLOSE</button>
+      </div>
+      <iframe id="pdfFrame" src=""></iframe>
+    </div>
+  </div>
+
+  <nav>
+    <div class="logo">JS<span>.</span>DEV</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#certs">Certs</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <!-- HERO -->
+    <section id="hero">
+      <div class="hero-content">
+        <div class="status-tag"><span class="dot"></span> 1st Year · BCA Cloud Computing</div>
+        <h1 class="hero-name">Joel<br>Saju</h1>
+        <p class="hero-title">// BCA Cloud Computing Student</p>
+        <p class="hero-desc">First-year BCA Cloud Computing student exploring the architecture of the modern web — from
+          front-end interfaces to cloud infrastructure. Building skills, earning certifications, and levelling up every day.</p>
+        <div class="hero-btns">
+          <a href="#certs" class="btn btn-primary">⬡ View Certificates</a>
+          <a href="#contact" class="btn btn-ghost">→ Ping Me</a>
+        </div>
+      </div>
+      <div class="hero-hud">
+        <div class="hud-circle">
+          <div class="hud-ring ring1"></div>
+          <div class="hud-ring ring2"></div>
+          <div class="hud-ring ring3"></div>
+          <div class="hud-center"><span class="big">☁️</span>CLOUD<br>COMPUTING<br>STUDENT</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="section-header">
+        <span class="section-num">01</span>
+        <h2 class="section-title">About Me</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <div class="terminal-line"><span>$</span> cat joel_saju.txt</div>
+          <p>Hi, I'm Joel Saju — a 1st year BCA Cloud Computing student with a love for building things on the web and
+            understanding the infrastructure that powers them.</p>
+          <p>Currently learning the foundations of cloud technology, web development, and programming. I enjoy turning
+            ideas into functional experiences and I'm always hungry to learn more.</p>
+          <p>Outside studies I experiment with HTML/CSS projects, tinker with code, and work towards certifications that
+            build real-world skills.</p>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card">
+            <div class="stat-num">1st</div>
+            <div class="stat-label">Year BCA</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">8</div>
+            <div class="stat-label">Certificates</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">6+</div>
+            <div class="stat-label">Tech Skills</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">7</div>
+            <div class="stat-label">Languages</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <div class="section-header">
+        <span class="section-num">02</span>
+        <h2 class="section-title">Skills</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="skills-section-wrap">
+        <div>
+          <div class="skills-col-title">⬡ Web &amp; Tech Skills</div>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <div class="skill-icon">🌐</div>
+              <div class="skill-name">HTML</div>
+              <div class="skill-level">Intermediate</div>
+              <div class="skill-bar-wrap"><div class="skill-bar" style="width:70%"></div></div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon">🎨</div>
+              <div class="skill-name">CSS</div>
+              <div class="skill-level">Intermediate</div>
+              <div class="skill-bar-wrap"><div class="skill-bar" style="width:65%"></div></div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon">🟢</div>
+              <div class="skill-name">Node.js</div>
+              <div class="skill-level">Learning</div>
+              <div class="skill-bar-wrap"><div class="skill-bar" style="width:35%"></div></div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon">🔀</div>
+              <div class="skill-name">Git</div>
+              <div class="skill-level">Learning</div>
+              <div class="skill-bar-wrap"><div class="skill-bar" style="width:40%"></div></div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon">💻</div>
+              <div class="skill-name">Front-End</div>
+              <div class="skill-level">Intermediate</div>
+              <div class="skill-bar-wrap"><div class="skill-bar" style="width:60%"></div></div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon">⚙️</div>
+              <div class="skill-name">Digital Eng.</div>
+              <div class="skill-level">Learning</div>
+              <div class="skill-bar-wrap"><div class="skill-bar" style="width:30%"></div></div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="skills-col-title">⬡ Programming Languages</div>
+          <div class="lang-grid">
+
+            <div class="lang-pill">
+              <div class="lang-pill-icon">☕</div>
+              <div>
+                <div class="lang-pill-name">Java</div>
+                <div class="lang-pill-lvl">Beginner</div>
+              </div>
+            </div>
+            <div class="lang-pill">
+              <div class="lang-pill-icon">🐍</div>
+              <div>
+                <div class="lang-pill-name">Python</div>
+                <div class="lang-pill-lvl">Beginner</div>
+              </div>
+            </div>
+            <div class="lang-pill">
+              <div class="lang-pill-icon">🐚</div>
+              <div>
+                <div class="lang-pill-name">Shell Script</div>
+                <div class="lang-pill-lvl">Beginner</div>
+              </div>
+            </div>
+            <div class="lang-pill">
+              <div class="lang-pill-icon">⚡</div>
+              <div>
+                <div class="lang-pill-name">C++</div>
+                <div class="lang-pill-lvl">Beginner</div>
+              </div>
+            </div>
+            <div class="lang-pill">
+              <div class="lang-pill-icon">🌐</div>
+              <div>
+                <div class="lang-pill-name">HTML</div>
+                <div class="lang-pill-lvl">Intermediate</div>
+              </div>
+            </div>
+            <div class="lang-pill">
+              <div class="lang-pill-icon">🎨</div>
+              <div>
+                <div class="lang-pill-name">CSS</div>
+                <div class="lang-pill-lvl">Intermediate</div>
+              </div>
+            </div>
+            <div class="lang-pill">
+              <div class="lang-pill-icon">🟡</div>
+              <div>
+                <div class="lang-pill-name">JavaScript</div>
+                <div class="lang-pill-lvl">Beginner</div>
+              </div>
+            </div>
+
+          </div>
+          <div style="margin-top:28px;padding:20px 22px;background:rgba(0,229,255,0.04);border:1px solid rgba(0,229,255,0.12);">
+            <div style="font-family:'Share Tech Mono',monospace;font-size:0.68rem;color:var(--neon4);letter-spacing:2px;margin-bottom:8px;">⬡ NOTE</div>
+            <p style="font-size:0.9rem;color:var(--dim);line-height:1.7;">Most languages are at beginner level — actively learning as part of the BCA curriculum.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTS -->
+    <section id="certs">
+      <div class="section-header">
+        <span class="section-num">03</span>
+        <h2 class="section-title">Certificates</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="terminal-line"><span>$</span> ls ~/certificates/</div>
+      <div class="certs-grid">
+
+        <div class="cert-card" data-cert="html">
+          <div class="cert-badge">🌐</div>
+          <div class="cert-issuer">Web Development</div>
+          <div class="cert-name">HTML Essentials</div>
+          <div class="cert-date">📄 html.pdf</div>
+          <button class="cert-pdf-btn" data-action="view" data-idx="0">⬡ View Certificate →</button>
+        </div>
+
+        <div class="cert-card" data-cert="css">
+          <div class="cert-badge">🎨</div>
+          <div class="cert-issuer">Web Development</div>
+          <div class="cert-name">CSS Styling &amp; Design</div>
+          <div class="cert-date">📄 css.pdf</div>
+          <button class="cert-pdf-btn" data-action="view" data-idx="1">⬡ View Certificate →</button>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-badge">💻</div>
+          <div class="cert-issuer">Web Development</div>
+          <div class="cert-name">Front-End Web Developer</div>
+          <div class="cert-date">📄 frontend.pdf</div>
+          <button class="cert-pdf-btn" data-action="view" data-idx="2">⬡ View Certificate →</button>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-badge">⚙️</div>
+          <div class="cert-issuer">Engineering</div>
+          <div class="cert-name">Digital Engineering Languages</div>
+          <div class="cert-date">📄 digital.pdf</div>
+          <button class="cert-pdf-btn" data-action="view" data-idx="3">⬡ View Certificate →</button>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-badge">☁️</div>
+          <div class="cert-issuer">Amazon Web Services</div>
+          <div class="cert-name">AWS Cloud Practitioner</div>
+          <div class="cert-date">📄 aws.pdf</div>
+          <button class="cert-pdf-btn" data-action="view" data-idx="4">⬡ View Certificate →</button>
+        </div>
+
+        <div class="cert-card" data-cert="js">
+          <div class="cert-badge">⚡</div>
+          <div class="cert-issuer">Web Development</div>
+          <div class="cert-name">JavaScript Essentials</div>
+          <div class="cert-date">📄 js.pdf</div>
+          <button class="cert-pdf-btn" data-action="view" data-idx="5">⬡ View Certificate →</button>
+        </div>
+
+        <div class="cert-card" data-cert="git">
+          <div class="cert-badge">🔀</div>
+          <div class="cert-issuer">Version Control</div>
+          <div class="cert-name">Git &amp; Version Control</div>
+          <div class="cert-date">📄 git.pdf</div>
+          <button class="cert-pdf-btn" data-action="view" data-idx="6">⬡ View Certificate →</button>
+        </div>
+
+        <div class="cert-card" data-cert="nodejs">
+          <div class="cert-badge">🟢</div>
+          <div class="cert-issuer">Backend Development</div>
+          <div class="cert-name">Node.js Fundamentals</div>
+          <div class="cert-date">📄 nodejs.pdf</div>
+          <button class="cert-pdf-btn" data-action="view" data-idx="7">⬡ View Certificate →</button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="section-header">
+        <span class="section-num">04</span>
+        <h2 class="section-title">Ping Me</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="contact-grid">
+
+        <div class="contact-info">
+          <h3>Let's Connect</h3>
+          <p>Whether you're a recruiter, professor, fellow student, or just curious — drop me a message. Every ping goes
+            straight into my Supabase database so I never miss it.</p>
+          <div class="contact-links">
+            <a href="mailto:joelsaju031@email.com" class="contact-link">
+              <div class="contact-link-icon">✉</div>JOELSAJU031@email.com
+            </a>
+            <a href="https://www.linkedin.com/in/joel-saju-49b583370" target="_blank" class="contact-link">
+              <div class="contact-link-icon">in</div>linkedin.com/in/joelsaju
+            </a>
+            <a href="https://github.com/Joelsajugeorge" target="_blank" class="contact-link">
+              <div class="contact-link-icon">⌥</div>github.com/Joelsajugeorge
+            </a>
+            <a href="#" class="contact-link">
+              <div class="contact-link-icon">📍</div>India
+            </a>
+          </div>
+          <div class="sb-live">
+            <span class="sb-live-dot"></span>
+            SUPABASE — MESSAGES SAVED TO DB
+          </div>
+        </div>
+
+        <div class="contact-form-wrap">
+          <div class="terminal-line" style="margin-bottom:24px"><span>$</span> ping joel_saju</div>
+          <div id="pingForm">
+            <div class="form-group">
+              <label>Name</label>
+              <input type="text" id="pName" placeholder="Your full name" />
+            </div>
+            <div class="form-group">
+              <label>Email</label>
+              <input type="email" id="pEmail" placeholder="your@email.com" />
+            </div>
+            <div class="form-group">
+              <label>Message</label>
+              <textarea id="pMsg" rows="5" placeholder="What's on your mind?"></textarea>
+            </div>
+            <button class="submit-btn" id="pingBtn" onclick="sendPing()">
+              <span id="pingBtnText">⚡ Send Ping</span>
+              <div class="btn-spinner" id="pingSpinner"></div>
+            </button>
+            <div class="form-err" id="pingErr"></div>
+          </div>
+          <div class="form-success" id="pingSuccess">
+            <span class="s-icon">📡</span>
+            <h4>PING RECEIVED!</h4>
+            <p>Your message has been saved to the database.<br>Joel will get back to you soon!</p>
+            <p class="ts" id="pingTs"></p>
+            <button class="reset-btn" onclick="resetPing()">↺ Send Another</button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div>© 2026 JOEL SAJU · BCA CLOUD COMPUTING</div>
+    <div class="footer-right"><span class="footer-dot"></span>SUPABASE · INDIA</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
