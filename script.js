@@ -27,7 +27,7 @@ document.querySelectorAll('.skill-bar').forEach(bar => {
 const pdfURLs = [
   'html.pdf',
   'css.pdf',
-  'frontend.pdf',
+  'FRONTEND.pdf',
   'digital.pdf',
   'aws.pdf',
   'js.pdf',
